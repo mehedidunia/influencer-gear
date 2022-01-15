@@ -71,6 +71,7 @@ display: flex;
 }
 .product-sec{
     width: 100%;
+    padding-top: 90px;
 }
 .products{
     display: grid;
@@ -176,5 +177,10 @@ footer p{
     .product{
 
         flex-direction: column;
+    }
+
+    .product-sec{
+
+        padding-top: 90px;
     }
 }
