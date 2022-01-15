@@ -17,7 +17,7 @@ header{
 main{
 align-items: center;
 background-color: white;
-    /* justify-content: center; */
+
 }
 .top-banner{
     display: flex;
@@ -39,7 +39,6 @@ display: flex;
     font-size: 40px;
 }
 
-
 .button{
     background-color: #E02C6D;
     border-radius: 20px;
@@ -57,6 +56,9 @@ display: flex;
 .fa-arrow-right{
     padding-left: 8px;
 }
+
+/* Product area start */
+
 .influencer-image{
     background-image: url(images/Circle\ design.svg);
     /* height: 100%;
@@ -87,12 +89,18 @@ box-shadow: 0px 0px 10px 1px #b1adad;
     width: 100%;
     height: 260px;
 }
+
+/* Product area end  */
+
+
 .see-more{
 width: 90%;
     color: #E02C6D;
     text-align: right;
     /* padding-right: 200px; */
 }
+
+/* footer css area start */
 
 footer{
     width: 100%;
@@ -122,7 +130,11 @@ footer p{
     margin-right: 10px;
 }
 
-/* Mobile Devices */
+/* footer css area End */
+
+
+/* Responsive area start */
+/* Responsive for Mobile Devices */
 @media only screen and (max-width:688px) {
     .product-sec .products {
         grid-template-columns: repeat(1, 1fr);
@@ -132,7 +144,6 @@ footer p{
        flex-direction: column;
         justify-content: center;
     }
-
     .container img{
         width: 90%;
     }
@@ -148,13 +159,12 @@ footer p{
             display: flex;
             justify-content: center;
         }
-
         .see-more{
         padding-right: 30px;
         }
 }
 
-/* Tablet Devices */
+/*  Responsive for Tablet Devices */
 
 @media only screen and (min-width: 688px) and (max-width:992px){
 
